@@ -17,7 +17,7 @@ export default function DatVe() {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-8 booking-content text-center">
+                    <div className="col-lg-8 col-md-12 booking-content text-center">
                         <h2>Đặt vé xem phim</h2>
                         <div className="screen">Màn hình</div>
                         <table className="table chairList">
@@ -25,7 +25,7 @@ export default function DatVe() {
                         </table>
                     </div>
 
-                    <div className="col-4 booking-checkout ">
+                    <div className="col-lg-4 col-md-12 booking-checkout ">
                         <ThanhToan />
                     </div>
                 </div>
